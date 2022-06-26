@@ -14,6 +14,7 @@ namespace Example
             int a = 3;
             int b = 4;
             int deadVariable = 10;
+            int deadVariable2 = 20;
             int c = a + b + deadVariable;
             return c;
         }

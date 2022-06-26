@@ -4,6 +4,11 @@ namespace Example
 {
     internal class Program
     {
+        public static int dead_function()
+        {
+            return 21;
+        }
+
         public static int live_function()
         {
             int a = 3;
@@ -12,6 +17,7 @@ namespace Example
             int c = a + b;
             return c;
         }
+
         public static void Main(string[] args)
         {
             Console.WriteLine(live_function());

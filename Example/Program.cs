@@ -8,6 +8,7 @@ namespace Example
         {
             int a = 3;
             int b = 4;
+            int deadVariable = 10;
             int c = a + b;
             return c;
         }

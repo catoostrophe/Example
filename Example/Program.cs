@@ -20,7 +20,7 @@ namespace Example
 
         public static void Main(string[] args)
         {
-            Console.WriteLine(live_function());
+            Console.WriteLine(live_function() + dead_function());
         }
     }
 }
